@@ -1,0 +1,22 @@
+{
+  "name": "siwe-auth-project",
+  "version": "1.0.0",
+  "description": "SIWE authentication contract for Oasis Sapphire testnet",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network sapphire-testnet"
+  },
+  "dependencies": {
+    "@oasisprotocol/sapphire-contracts": "^0.2.14",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@oasisprotocol/sapphire-hardhat": "^2.22.2",
+    "hardhat": "^2.19.0"
+  }
+}
