@@ -8,11 +8,7 @@ RPC HTTP endpoint: https://testnet.sapphire.oasis.io
 
 RPC WebSockets endpoint: wss://testnet.sapphire.oasis.io/ws
 
-Chain ID:
-
-Hex: 0x5aff
-
-Decimal: 23295
+Chain ID: (HEX: 0x5aff), (DECIMAL: 23295)
 
 ## Step 3: Find the important files and import in your Next.JS App
 
