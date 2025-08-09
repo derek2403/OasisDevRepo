@@ -18,4 +18,6 @@ components/Providers.js (THIS IS THE PROVIDER WRAPPER)
 
 lib/wagmi.js (WALLET CONFIGURATION)
 
+package.json (DEPENDENCIES)
+
 pages/_app.js (NEXTJS WRAPPER)
